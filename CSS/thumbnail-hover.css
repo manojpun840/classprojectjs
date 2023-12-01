@@ -1,0 +1,112 @@
+.thumbnail-row{
+    position: relative;
+}
+.thumbnail-hover{
+    height: 330px;
+    width: 290px;
+    background-color: #5f5f5fde;
+    border-radius: 12px;
+    position: absolute;
+    left: 100px;
+    bottom: 40px;
+    opacity: 0;
+    z-index: 100;
+    transition: opacity 0.70s ease-in-out;
+    pointer-events: none;
+}
+.thumbnail-row:hover .thumbnail-hover{
+    opacity: 1;
+}
+.thumbnail-hover-heading{
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+    padding: 2px 0 8px 12px;
+    color: white;
+}
+.thumbnail-hover-rating{
+    display: inline;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 2px;
+}
+.thumbnail-hover-img{
+    height: 15px;
+    margin-left: 12px;
+    filter: invert(65%) sepia(98%) saturate(433%) hue-rotate(354deg) brightness(102%) contrast(107%);
+}
+.thumbnail-hover-HD{
+    margin-left: 4px;
+    padding: 2px 5px;
+    color: black;
+    font-weight: bold;
+    background-color: #ffdd95;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.thumbnail-hover-ep-num{
+    margin-left: -1px;
+    padding: 2px 5px;
+    color: black;
+    font-weight: bold;
+    background-color: pink;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.thumbnail-hover-tv{
+    float: right;
+    margin-right: 12px;
+    color: black;
+    background-color: #ffdd95;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+.thumbnail-hover-description{
+    margin: 8px 12px 0 12px;
+    color: #c5c5c9;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1em;
+    margin-bottom: 12px;
+    font-family: Poppins,sans-serif;
+}
+.thumbnail-hover-information{
+    margin-left: 12px;
+    font-family: Poppins,sans-serif;
+    color: #c5c5c9;
+    margin-bottom: 12px;
+}
+.thumbnail-hover-buttons{
+    margin-left: 12px;
+}
+.thumbnail-hover-play-button{
+    border-radius: 20px;
+    width: 170px;
+    height: 35px;
+    border: none;
+    background-color: #ffdd95;
+}
+.thumbnail-hover-play-icon{
+    height: 30px;
+    margin: 0px 0 0 -78px;
+}
+.watch-now{
+    margin: -26px 0 0 42px;
+    font-family: Poppins,sans-serif;
+    font-weight: bold;
+}
+.thumbnail-hover-plus-button{
+    height: 35px;
+    width: 50px;
+    border-radius: 15px;
+}
+@media(max-width:1200px){
+    .thumbnail-hover{
+        display: none;
+    }
+}

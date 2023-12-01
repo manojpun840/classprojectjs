@@ -1,0 +1,261 @@
+p{
+    font-family: Poppins,sans-serif;
+}
+body{
+    margin: 0;
+}
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    height: 25px;
+    filter: invert(100%) sepia(0%) saturate(5070%) hue-rotate(350deg) brightness(112%) contrast(95%);
+    margin-left: 15px;
+    margin-right: 30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.aniwatch-logo{
+    height: 50px;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 25px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    width: 0;
+}
+.middle-left-section{
+    width: 285px;
+    margin-right: 60px;
+}
+.search-bar{
+    width: 300px;
+    flex: 1;
+    height: 40px;
+    padding-left: 12px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+.search-bar::placeholder{
+    font-family: poppins,sans-serif;
+    font-size: 16px;
+}
+.search-button{
+    margin-left: -60px;
+    height: 20px;
+    width: 30px;
+    background: none;
+    border: none;
+}
+.middle-middle-section{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 55px;
+}
+.discord-icon,
+.telegram-icon,
+.reddit-icon,
+.twitter-icon{
+    height: 30px;
+
+}
+.discord-icon{
+    filter: invert(77%) sepia(58%) saturate(5272%) hue-rotate(200deg) brightness(88%) contrast(89%);
+}
+.telegram-icon{
+    filter: invert(29%) sepia(83%) saturate(1965%) hue-rotate(179deg) brightness(99%) contrast(101%);
+}
+.reddit-icon{
+    filter: invert(33%) sepia(68%) saturate(2899%) hue-rotate(346deg) brightness(98%) contrast(107%);
+}
+.twitter-icon{
+    filter: invert(53%) sepia(57%) saturate(4550%) hue-rotate(183deg) brightness(103%) contrast(88%);
+}
+.middle-right-section{
+    width: 350px;
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.live-icon,
+.shuffle-icon,
+.comments-icon{
+    height: 30px;
+    filter: invert(77%) sepia(60%) saturate(265%) hue-rotate(347deg) brightness(102%) contrast(105%);
+}
+.live-icon-container,
+.shuffle-icon-container,
+.community-icon-container{
+    position: relative;
+}
+.live-icon{
+    margin-left: 32px;
+    margin-top: -5px;
+}
+.watch-together{
+    position: absolute;
+    bottom: -16px;
+    left: 2px;
+    font-family: Poppins,sans-serif;
+    color: white;
+}
+.live-icon-container .tooltip,
+.shuffle-icon-container .tooltip,
+.community-icon-container .tooltip{
+    position: absolute;
+    background-color: white;
+    white-space: nowrap;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-family: Poppins,sans-serif;
+    font-size: 13px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.live-icon-container:hover .tooltip,
+.shuffle-icon-container:hover .tooltip,
+.community-icon-container:hover .tooltip{
+    opacity: 1;
+}
+.live-icon-container .tooltip{
+    top: 45px;
+    left: -8px;
+}
+.shuffle-icon-container .tooltip{
+    top: 45px;
+    left: -48px;
+}
+.community-icon-container .tooltip{
+    top: 45px;
+    left: -55px;
+}
+.shuffle-icon{
+    height: 23px;
+    margin-left: 14px;
+    margin-top: -3px;
+}
+.shuffle{
+    position: absolute;
+    bottom: -18px;
+    left: -5px;
+    font-family: Poppins,sans-serif;
+    color: white;
+}
+.comments-icon{
+    height: 23px;
+    margin-right: 45px;
+    margin-top: -3px;
+}
+.community{
+    position: absolute;
+    bottom: -18px;
+    right: 5px;
+    font-family: Poppins,sans-serif;
+    color: white;
+}
+.watch-together:hover,
+.shuffle:hover,
+.community:hover{
+    color: #ffdd95;
+}
+.hamburger-menu,
+.aniwatch-logo,
+.discord-icon,
+.telegram-icon,
+.reddit-icon,
+.twitter-icon,
+.search-button,
+.live-icon,
+.watch-together,
+.shuffle-icon,
+.shuffle,
+.comments-icon,
+.community{
+    cursor: pointer;
+}
+.responsive-search-button{
+    position: relative;
+}
+.responsive-search-button .open{
+    max-width: 1212px;
+    /* flex: 1;  */
+}
+.responsive-search-bar{
+    position: absolute;
+    top: 60px;
+    right: -65px;
+    height: 35px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.responsive-search-bar::placeholder{
+    margin-left: 40px;
+}
+.responsive-search-icon{
+    position: absolute;
+    top: 15px;
+    right: 48px;
+    height: 30px;
+    filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(288deg) brightness(101%) contrast(104%);
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    margin-right: 38px;
+}
+.login-icon{
+    padding: 10px 10px ;
+    font-size: 16px;
+    font-family: Poppin,sans-serif;
+    font-weight: bold;
+    background-color: #ffdd95;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media(max-width:1300px){
+    .middle-left-section{
+        display: none;
+    }
+}
+@media(max-width:950px){
+    .middle-middle-section{
+        display: none;
+    }
+}
+@media(max-width:750px){
+    .middle-right-section{
+        display: none;
+    }
+}
+@media(min-width:1300px){
+    .responsive-search-icon{
+        display: none;
+    }
+}

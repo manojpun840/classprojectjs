@@ -1,0 +1,57 @@
+.lowerheader{
+    height: 100px;
+    background-color: black;
+    padding-top: 45px;
+    margin-bottom: -14px;
+}
+.gif-more{
+    display: flex;
+    align-items: center;
+}
+.share-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 25px 0 0 12px;
+    cursor: pointer;
+}
+.share-aniwatch{
+    margin: 10px 0 0 12px;
+    color: #ffdd95;
+    font-size: 20px;
+    font-weight: bold;
+}
+.friends{
+    color: #fff;
+    margin: 55px 0 0 -135px;
+}
+.stats{
+    margin: 35px 0 0 35px;
+    font-size: 18px;
+    color: #d7d7db;
+}
+.shares{
+    margin: 58px 0 0 -38px;
+    font-size: 10px;
+    color: #d7d7db;
+}
+.share-button{
+    margin-top: 40px;
+    margin-left: 20px;
+    height: 30px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: #95D03A;
+    border: none;
+    transition: background-color 1s;
+    cursor: pointer;
+}
+.share-button:hover{
+    background-color: #4e7f05;
+}
+.share-emoji{
+    margin: 2px 5px 0 2px;
+    height: 18px;
+    width: 28px;
+    filter: invert(100%) sepia(0%) saturate(7444%) hue-rotate(145deg) brightness(92%) contrast(112%);
+} 
